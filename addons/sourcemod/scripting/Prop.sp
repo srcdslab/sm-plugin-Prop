@@ -11,7 +11,7 @@
 #include <sourcemod>
 #include <sdktools>
 #include <sdkhooks>
-#include <morecolors>
+#include <multicolors>
 
 #pragma tabsize 0
 #define MAXENTITIES 2048
