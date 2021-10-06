@@ -1,0 +1,96 @@
+"Phrases"
+{
+	"DeletedProp"
+	{
+		"en" "{green}[ZP] {white}Deleted a prop."
+	}
+	"FailToDeleteProp"
+	{
+		"en" "{green}[ZP] {white}You can't delete this prop."
+	}
+	"GetPropInfo"
+	{
+		"#format" "{1:s},{2:s},{3:N},{4:d}"
+		"en" "{green}[ZP] {white}Prop: {1} ({2}) [Owner: {3} (HP: {4})]"
+	}
+	"GetServerPropInfo"
+	{
+		"#format" "{1:s},{2:s},{3:d}"
+		"en" "{green}[ZP] {white}Prop: {1} ({2}) [Owner: Server (HP: {3})]"
+	}
+	"ResetedProp"
+	{
+		"#format" "{1:N}"
+		"en" "{green}[ZP] {white}Reseted prop of {1}."
+	}
+	"AlreadyServerProp"
+	{
+		"en" "{green}[ZP] {white}This prop is already a server prop."
+	}
+	"FailToResetProp"
+	{
+		"en" "{green}[ZP] {white}You can't reset this prop."
+	}
+	"Enabled"
+	{
+		"en" "enabled"
+	}
+	"Disabled"
+	{
+		"en" "disabled"
+	}
+	"GiveCreditsUsage"
+	{
+		"en" "{green}[ZP] {white}Usage: sm_zprop_credits <target> <amount>"
+	}
+	"GaveCredits"
+	{
+		"#format" "{1:d},{2:s}"
+		"en" "{green}[ZP] {white}You gave {1} credits to {2}."
+	}
+	"PropsAreDisabled"
+	{
+		"en" "{green}[ZP] {white}Props are disabled."
+	}
+	"PropsRoundStart"
+	{
+		"#format" "{1:d}"
+		"en" "{green}[ZP] {white}Props will be enabled in {1} seconds."
+	}
+	"PurchasedProp"
+	{
+		"#format" "{1:s}"
+		"en" "{green}[ZP] {white}You purchased {1}."
+	}
+	"CreditsForProps"
+	{
+		"#format" "{1:d}"
+		"en" "[ZP] You got {1} credits for props."
+	}
+	"ReachedMaxCredits"
+	{
+		"en" "[ZP] You have reached max credits."
+	}
+	"Spectator"
+	{
+		"en" "Spectator"
+	}
+	"Zombie"
+	{
+		"en" "Zombie"
+	}
+	"Human"
+	{
+		"en" "Human"
+	}
+	"PlayerPropInfo"
+	{
+		"#format" "{1:d},{2:N},{3:t}"
+		"en" "Health: {1} [Owner: {2} ({3})]"
+	}
+	"ServerPropInfo"
+	{
+		"#format" "{1:d}"
+		"en" "Health: {1} [Owner: Server]"
+	}
+}
