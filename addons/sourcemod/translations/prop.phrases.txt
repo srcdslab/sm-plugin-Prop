@@ -135,6 +135,17 @@
 		"pt" "{green}[ZP] {white}Os props serão ativados em {1} segundos."
 		"chi" "{green}[ZP] {white}道具将在 {1} 秒后启用。"
 	}
+	"PropMenuTitle"
+	{
+		"#format" "{1:d}"
+		"en" "Available props: \nYour credits: {1}"
+		"fr" "Props disponibles : \nVos crédits : {1}"
+		"ru" "Доступные объекты: \nВаши кредиты: {1}"
+		"es" "Props disponibles: \nTus créditos: {1}"
+		"de" "Verfügbare Props: \nDeine Credits: {1}"
+		"pt" "Props disponíveis: \nSeus créditos: {1}"
+		"chi" "可用道具：\n你的积分：{1}"
+	}
 	"PurchasedProp"
 	{
 		"#format" "{1:s}"

@@ -53,7 +53,7 @@ public Plugin myinfo =
 	name = "[ZR] Props",
 	author = "Darkthrone, Greyscale, Twisted|Panda, Roy (Christian Deacon), Doshik, ire",
 	description  = "Buy props, show their health and more",
-	version = "1.2.1",
+	version = "1.2.2",
 };
 
 public void OnPluginStart()
@@ -102,7 +102,10 @@ public void OnMapEnd()
 
 public void OnClientConnected(int client)
 {
-	g_arClientProps[client] = new ArrayList();
+	if(g_arClientProps[client] == null)
+	{
+		g_arClientProps[client] = new ArrayList();
+	}
 }
 
 public void OnClientDisconnect(int client)
@@ -167,6 +170,12 @@ void SetupPropHealth()
 
 public Action DeleteProp(int client, int args)
 {
+	if(client == 0)
+	{
+		ReplyToCommand(client, "%t", "Command is in-game only");
+		return Plugin_Handled;
+	}
+	
     int g_iTarget = GetClientAimTarget(client, false);
 	
 	if(IsValidEntity(g_iTarget))
@@ -193,6 +202,12 @@ public Action DeleteProp(int client, int args)
 
 public Action GetPropInfo(int client, int args)
 {
+	if(client == 0)
+	{
+		ReplyToCommand(client, "%t", "Command is in-game only");
+		return Plugin_Handled;
+	}
+	
     int g_iTarget = GetClientAimTarget(client, false);
 	
 	if(IsValidEntity(g_iTarget))
@@ -222,6 +237,12 @@ public Action GetPropInfo(int client, int args)
 
 public Action ResetProp(int client, int args)
 {
+	if(client == 0)
+	{
+		ReplyToCommand(client, "%t", "Command is in-game only");
+		return Plugin_Handled;
+	}
+	
     int g_iTarget = GetClientAimTarget(client, false);
 	
 	if(IsValidEntity(g_iTarget))
@@ -261,7 +282,7 @@ public Action PropCredits(int client, int args)
 {
 	if(args != 2)
 	{
-		CPrintToChat(client, "%t", "GiveCreditsUsage");
+		CReplyToCommand(client, "%t", "GiveCreditsUsage");
 		return Plugin_Handled;
 	}
 	
@@ -296,7 +317,7 @@ public Action PropCredits(int client, int args)
 	if(tn_is_ml)
 		Format(target_name, sizeof(target_name), "%T", target_name, client);
 	
-	CPrintToChat(client, "%t", "GaveCredits", g_iCredits, target_name);
+	CReplyToCommand(client, "%t", "GaveCredits", g_iCredits, target_name);
 	
 	return Plugin_Handled;
 }
@@ -325,7 +346,7 @@ public Action OpenPropMenu(int client, int args)
 	
     Menu PropMenu = new Menu(MenuHandle);
 	char MenuTitle[128];
-	Format(MenuTitle, sizeof(MenuTitle), "Available props: \nYour credits: %d", g_iPropCredits[client]);
+	Format(MenuTitle, sizeof(MenuTitle), "%T", "PropMenuTitle", client, g_iPropCredits[client]);
 	PropMenu.SetTitle(MenuTitle);
 	char MenuBuffer[8], MenuBuffer2[128];
 	for(int i = 0; i < g_iPropAmount; i++)
