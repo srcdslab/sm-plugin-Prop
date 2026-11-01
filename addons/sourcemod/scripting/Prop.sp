@@ -53,7 +53,7 @@ public Plugin myinfo =
 	name = "[ZR] Props",
 	author = "Darkthrone, Greyscale, Twisted|Panda, Roy (Christian Deacon), Doshik, ire",
 	description  = "Buy props, show their health and more",
-	version = "1.2",
+	version = "1.2.1",
 };
 
 public void OnPluginStart()
@@ -293,6 +293,9 @@ public Action PropCredits(int client, int args)
 		g_bGivenCredits[target_list[i]] = true;
 	}
 	
+	if(tn_is_ml)
+		Format(target_name, sizeof(target_name), "%T", target_name, client);
+	
 	CPrintToChat(client, "%t", "GaveCredits", g_iCredits, target_name);
 	
 	return Plugin_Handled;
@@ -328,7 +331,7 @@ public Action OpenPropMenu(int client, int args)
 	for(int i = 0; i < g_iPropAmount; i++)
 	{
 	    IntToString(i, MenuBuffer, sizeof(MenuBuffer));
-	    Format(MenuBuffer2, sizeof(MenuBuffer2), "%s $%d]", PropData[i].PropName, PropData[i].PropPrice);
+	    Format(MenuBuffer2, sizeof(MenuBuffer2), "%s [$%d]", PropData[i].PropName, PropData[i].PropPrice);
 		PropMenu.AddItem(MenuBuffer, MenuBuffer2, g_iPropCredits[client] >= PropData[i].PropPrice ? ITEMDRAW_DEFAULT : ITEMDRAW_DISABLED);
 	}
 	PropMenu.ExitButton = true;

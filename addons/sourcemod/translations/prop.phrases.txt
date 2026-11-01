@@ -3,94 +3,220 @@
 	"DeletedProp"
 	{
 		"en" "{green}[ZP] {white}Deleted a prop."
+		"fr" "{green}[ZP] {white}Prop supprimé."
+		"ru" "{green}[ZP] {white}Объект удалён."
+		"es" "{green}[ZP] {white}Prop eliminado."
+		"de" "{green}[ZP] {white}Prop gelöscht."
+		"pt" "{green}[ZP] {white}Prop removido."
+		"chi" "{green}[ZP] {white}已删除一个道具。"
 	}
 	"FailToDeleteProp"
 	{
 		"en" "{green}[ZP] {white}You can't delete this prop."
+		"fr" "{green}[ZP] {white}Vous ne pouvez pas supprimer ce prop."
+		"ru" "{green}[ZP] {white}Вы не можете удалить этот объект."
+		"es" "{green}[ZP] {white}No puedes eliminar este prop."
+		"de" "{green}[ZP] {white}Du kannst dieses Prop nicht löschen."
+		"pt" "{green}[ZP] {white}Você não pode remover este prop."
+		"chi" "{green}[ZP] {white}你无法删除这个道具。"
 	}
 	"GetPropInfo"
 	{
 		"#format" "{1:s},{2:s},{3:N},{4:d}"
 		"en" "{green}[ZP] {white}Prop: {1} ({2}) [Owner: {3} (HP: {4})]"
+		"fr" "{green}[ZP] {white}Prop : {1} ({2}) [Proprio : {3} (HP : {4})]"
+		"ru" "{green}[ZP] {white}Объект: {1} ({2}) [Владелец: {3} (HP: {4})]"
+		"es" "{green}[ZP] {white}Prop: {1} ({2}) [Dueño: {3} (HP: {4})]"
+		"de" "{green}[ZP] {white}Prop: {1} ({2}) [Besitzer: {3} (HP: {4})]"
+		"pt" "{green}[ZP] {white}Prop: {1} ({2}) [Dono: {3} (HP: {4})]"
+		"chi" "{green}[ZP] {white}道具：{1}（{2}）[所有者：{3}（HP：{4}）]"
 	}
 	"GetServerPropInfo"
 	{
 		"#format" "{1:s},{2:s},{3:d}"
 		"en" "{green}[ZP] {white}Prop: {1} ({2}) [Owner: Server (HP: {3})]"
+		"fr" "{green}[ZP] {white}Prop : {1} ({2}) [Proprio : Serveur (HP : {3})]"
+		"ru" "{green}[ZP] {white}Объект: {1} ({2}) [Владелец: Сервер (HP: {3})]"
+		"es" "{green}[ZP] {white}Prop: {1} ({2}) [Dueño: Servidor (HP: {3})]"
+		"de" "{green}[ZP] {white}Prop: {1} ({2}) [Besitzer: Server (HP: {3})]"
+		"pt" "{green}[ZP] {white}Prop: {1} ({2}) [Dono: Servidor (HP: {3})]"
+		"chi" "{green}[ZP] {white}道具：{1}（{2}）[所有者：服务器（HP：{3}）]"
 	}
 	"ResetedProp"
 	{
 		"#format" "{1:N}"
-		"en" "{green}[ZP] {white}Reseted prop of {1}."
+		"en" "{green}[ZP] {white}Reset prop of {1}."
+		"fr" "{green}[ZP] {white}Prop de {1} réinitialisé."
+		"ru" "{green}[ZP] {white}Объект игрока {1} сброшен."
+		"es" "{green}[ZP] {white}Prop de {1} restablecido."
+		"de" "{green}[ZP] {white}Prop von {1} zurückgesetzt."
+		"pt" "{green}[ZP] {white}Prop de {1} redefinido."
+		"chi" "{green}[ZP] {white}已重置 {1} 的道具。"
 	}
 	"AlreadyServerProp"
 	{
 		"en" "{green}[ZP] {white}This prop is already a server prop."
+		"fr" "{green}[ZP] {white}Ce prop appartient déjà au serveur."
+		"ru" "{green}[ZP] {white}Этот объект уже принадлежит серверу."
+		"es" "{green}[ZP] {white}Este prop ya pertenece al servidor."
+		"de" "{green}[ZP] {white}Dieses Prop gehört bereits dem Server."
+		"pt" "{green}[ZP] {white}Este prop já é do servidor."
+		"chi" "{green}[ZP] {white}这个道具已经属于服务器。"
 	}
 	"FailToResetProp"
 	{
 		"en" "{green}[ZP] {white}You can't reset this prop."
+		"fr" "{green}[ZP] {white}Vous ne pouvez pas réinitialiser ce prop."
+		"ru" "{green}[ZP] {white}Вы не можете сбросить этот объект."
+		"es" "{green}[ZP] {white}No puedes restablecer este prop."
+		"de" "{green}[ZP] {white}Du kannst dieses Prop nicht zurücksetzen."
+		"pt" "{green}[ZP] {white}Você não pode redefinir este prop."
+		"chi" "{green}[ZP] {white}你无法重置这个道具。"
 	}
 	"Enabled"
 	{
 		"en" "enabled"
+		"fr" "activé"
+		"ru" "включено"
+		"es" "activado"
+		"de" "aktiviert"
+		"pt" "ativado"
+		"chi" "已启用"
 	}
 	"Disabled"
 	{
 		"en" "disabled"
+		"fr" "désactivé"
+		"ru" "отключено"
+		"es" "desactivado"
+		"de" "deaktiviert"
+		"pt" "desativado"
+		"chi" "已禁用"
 	}
 	"GiveCreditsUsage"
 	{
 		"en" "{green}[ZP] {white}Usage: sm_zprop_credits <target> <amount>"
+		"fr" "{green}[ZP] {white}Utilisation : sm_zprop_credits <cible> <montant>"
+		"ru" "{green}[ZP] {white}Использование: sm_zprop_credits <цель> <кол-во>"
+		"es" "{green}[ZP] {white}Uso: sm_zprop_credits <objetivo> <cantidad>"
+		"de" "{green}[ZP] {white}Verwendung: sm_zprop_credits <Ziel> <Anzahl>"
+		"pt" "{green}[ZP] {white}Uso: sm_zprop_credits <alvo> <quantidade>"
+		"chi" "{green}[ZP] {white}用法：sm_zprop_credits <目标> <数量>"
 	}
 	"GaveCredits"
 	{
 		"#format" "{1:d},{2:s}"
 		"en" "{green}[ZP] {white}You gave {1} credits to {2}."
+		"fr" "{green}[ZP] {white}Vous avez donné {1} crédits à {2}."
+		"ru" "{green}[ZP] {white}Игроку {2} выдано кредитов: {1}."
+		"es" "{green}[ZP] {white}Has dado {1} créditos a {2}."
+		"de" "{green}[ZP] {white}Du hast {2} {1} Credits gegeben."
+		"pt" "{green}[ZP] {white}Você deu {1} créditos para {2}."
+		"chi" "{green}[ZP] {white}你给了 {2} {1} 积分。"
 	}
 	"PropsAreDisabled"
 	{
 		"en" "{green}[ZP] {white}Props are disabled."
+		"fr" "{green}[ZP] {white}Les props sont désactivés."
+		"ru" "{green}[ZP] {white}Объекты отключены."
+		"es" "{green}[ZP] {white}Los props están desactivados."
+		"de" "{green}[ZP] {white}Props sind deaktiviert."
+		"pt" "{green}[ZP] {white}Os props estão desativados."
+		"chi" "{green}[ZP] {white}道具已禁用。"
 	}
 	"PropsRoundStart"
 	{
 		"#format" "{1:d}"
 		"en" "{green}[ZP] {white}Props will be enabled in {1} seconds."
+		"fr" "{green}[ZP] {white}Les props seront activés dans {1} secondes."
+		"ru" "{green}[ZP] {white}Объекты станут доступны через {1} сек."
+		"es" "{green}[ZP] {white}Los props se activarán en {1} segundos."
+		"de" "{green}[ZP] {white}Props werden in {1} Sekunden aktiviert."
+		"pt" "{green}[ZP] {white}Os props serão ativados em {1} segundos."
+		"chi" "{green}[ZP] {white}道具将在 {1} 秒后启用。"
 	}
 	"PurchasedProp"
 	{
 		"#format" "{1:s}"
 		"en" "{green}[ZP] {white}You purchased {1}."
+		"fr" "{green}[ZP] {white}Vous avez acheté : {1}."
+		"ru" "{green}[ZP] {white}Вы купили: {1}."
+		"es" "{green}[ZP] {white}Has comprado {1}."
+		"de" "{green}[ZP] {white}Du hast {1} gekauft."
+		"pt" "{green}[ZP] {white}Você comprou {1}."
+		"chi" "{green}[ZP] {white}你购买了 {1}。"
 	}
 	"CreditsForProps"
 	{
 		"#format" "{1:d}"
 		"en" "[ZP] You got {1} credits for props."
+		"fr" "[ZP] Vous avez reçu {1} crédits pour les props."
+		"ru" "[ZP] Получено кредитов на объекты: {1}."
+		"es" "[ZP] Has recibido {1} créditos por los props."
+		"de" "[ZP] Du hast {1} Credits für Props erhalten."
+		"pt" "[ZP] Você recebeu {1} créditos por props."
+		"chi" "[ZP] 你获得了 {1} 道具积分。"
 	}
 	"ReachedMaxCredits"
 	{
 		"en" "[ZP] You have reached max credits."
+		"fr" "[ZP] Vous avez atteint le maximum de crédits."
+		"ru" "[ZP] Вы достигли максимума кредитов."
+		"es" "[ZP] Has alcanzado el máximo de créditos."
+		"de" "[ZP] Du hast das Credit-Maximum erreicht."
+		"pt" "[ZP] Você atingiu o máximo de créditos."
+		"chi" "[ZP] 你的积分已达上限。"
 	}
 	"Spectator"
 	{
 		"en" "Spectator"
+		"fr" "Spectateur"
+		"ru" "Наблюдатель"
+		"es" "Espectador"
+		"de" "Zuschauer"
+		"pt" "Espectador"
+		"chi" "观察者"
 	}
 	"Zombie"
 	{
 		"en" "Zombie"
+		"fr" "Zombie"
+		"ru" "Зомби"
+		"es" "Zombi"
+		"de" "Zombie"
+		"pt" "Zumbi"
+		"chi" "僵尸"
 	}
 	"Human"
 	{
 		"en" "Human"
+		"fr" "Humain"
+		"ru" "Человек"
+		"es" "Humano"
+		"de" "Mensch"
+		"pt" "Humano"
+		"chi" "人类"
 	}
 	"PlayerPropInfo"
 	{
 		"#format" "{1:d},{2:N},{3:t}"
 		"en" "Health: {1} [Owner: {2} ({3})]"
+		"fr" "Vie : {1} [Proprio : {2} ({3})]"
+		"ru" "Прочность: {1} [Владелец: {2} ({3})]"
+		"es" "Vida: {1} [Dueño: {2} ({3})]"
+		"de" "Leben: {1} [Besitzer: {2} ({3})]"
+		"pt" "Vida: {1} [Dono: {2} ({3})]"
+		"chi" "血量：{1} [所有者：{2}（{3}）]"
 	}
 	"ServerPropInfo"
 	{
 		"#format" "{1:d}"
 		"en" "Health: {1} [Owner: Server]"
+		"fr" "Vie : {1} [Proprio : Serveur]"
+		"ru" "Прочность: {1} [Владелец: Сервер]"
+		"es" "Vida: {1} [Dueño: Servidor]"
+		"de" "Leben: {1} [Besitzer: Server]"
+		"pt" "Vida: {1} [Dono: Servidor]"
+		"chi" "血量：{1} [所有者：服务器]"
 	}
 }
