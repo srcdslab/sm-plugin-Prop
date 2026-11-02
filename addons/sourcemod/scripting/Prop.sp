@@ -13,6 +13,8 @@
 #include <sdkhooks>
 #include <multicolors>
 
+#pragma semicolon 1
+#pragma newdecls required
 #pragma tabsize 0
 #define MAXENTITIES 2048
 
@@ -53,7 +55,7 @@ public Plugin myinfo =
 	name = "[ZR] Props",
 	author = "Darkthrone, Greyscale, Twisted|Panda, Roy (Christian Deacon), Doshik, ire",
 	description  = "Buy props, show their health and more",
-	version = "1.2.2",
+	version = "1.2.3",
 };
 
 public void OnPluginStart()
@@ -385,7 +387,7 @@ void CreateProp(int client, int PropIndex)
 	}
 }
 
-void AddProp(float vecOrigin[3], float vecAngle[3], units, float output[3])
+void AddProp(float vecOrigin[3], float vecAngle[3], int units, float output[3])
 {
 	float vecView[3];
 	GetViewVector(vecAngle, vecView);
