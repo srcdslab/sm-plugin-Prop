@@ -13,6 +13,9 @@
 #include <sdkhooks>
 #include <multicolors>
 
+#pragma semicolon 1
+#pragma newdecls required
+
 #pragma tabsize 0
 #define MAXENTITIES 2048
 
@@ -160,7 +163,7 @@ void SetupPropHealth()
 			g_smPropHP.SetValue(KvModelPath, Kv.GetNum("health"));
 		}
 	}
-	while Kv.GotoNextKey();
+	while (Kv.GotoNextKey());
 	
 	delete Kv;	
 }
@@ -354,6 +357,7 @@ public int MenuHandle(Menu menu, MenuAction action, int client, int choice)
     {
         delete menu;
     }
+	return 0;
 }
 
 void CreateProp(int client, int PropIndex)
@@ -383,7 +387,7 @@ void CreateProp(int client, int PropIndex)
 	}
 }
 
-void AddProp(float vecOrigin[3], float vecAngle[3], units, float output[3])
+void AddProp(float vecOrigin[3], float vecAngle[3], int units, float output[3])
 {
 	float vecView[3];
 	GetViewVector(vecAngle, vecView);
