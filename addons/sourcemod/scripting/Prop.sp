@@ -160,7 +160,7 @@ void SetupPropHealth()
 			g_smPropHP.SetValue(KvModelPath, Kv.GetNum("health"));
 		}
 	}
-	while Kv.GotoNextKey();
+	while (Kv.GotoNextKey());
 	
 	delete Kv;	
 }
@@ -354,6 +354,8 @@ public int MenuHandle(Menu menu, MenuAction action, int client, int choice)
     {
         delete menu;
     }
+
+    return 0;
 }
 
 void CreateProp(int client, int PropIndex)
