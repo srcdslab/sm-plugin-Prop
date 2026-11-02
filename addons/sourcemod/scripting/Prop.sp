@@ -53,7 +53,7 @@ public Plugin myinfo =
 	name = "[ZR] Props",
 	author = "Darkthrone, Greyscale, Twisted|Panda, Roy (Christian Deacon), Doshik, ire",
 	description  = "Buy props, show their health and more",
-	version = "1.2.1",
+	version = "1.2.2",
 };
 
 public void OnPluginStart()
@@ -160,7 +160,7 @@ void SetupPropHealth()
 			g_smPropHP.SetValue(KvModelPath, Kv.GetNum("health"));
 		}
 	}
-	while Kv.GotoNextKey();
+	while (Kv.GotoNextKey());
 	
 	delete Kv;	
 }
@@ -354,6 +354,8 @@ public int MenuHandle(Menu menu, MenuAction action, int client, int choice)
     {
         delete menu;
     }
+
+    return 0;
 }
 
 void CreateProp(int client, int PropIndex)
