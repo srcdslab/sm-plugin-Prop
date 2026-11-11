@@ -55,7 +55,7 @@ public Plugin myinfo =
 	name = "[ZR] Props",
 	author = "Darkthrone, Greyscale, Twisted|Panda, Roy (Christian Deacon), Doshik, ire",
 	description  = "Buy props, show their health and more",
-	version = "1.2.4",
+	version = "1.2.5",
 };
 
 public void OnPluginStart()
