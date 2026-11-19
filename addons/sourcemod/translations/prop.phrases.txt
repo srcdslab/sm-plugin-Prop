@@ -9,6 +9,12 @@
 		"de" "{green}[ZP] {white}Prop gelöscht."
 		"pt" "{green}[ZP] {white}Prop removido."
 		"chi" "{green}[ZP] {white}已删除一个道具。"
+		"pl" "{green}[ZP] {white}Prop usunięty."
+		"tr" "{green}[ZP] {white}Prop silindi."
+		"it" "{green}[ZP] {white}Prop eliminato."
+		"ua" "{green}[ZP] {white}Проп видалено."
+		"zho" "{green}[ZP] {white}已刪除一個道具。"
+		"cze" "{green}[ZP] {white}Prop byl smazán."
 	}
 	"FailToDeleteProp"
 	{
@@ -19,6 +25,12 @@
 		"de" "{green}[ZP] {white}Du kannst dieses Prop nicht löschen."
 		"pt" "{green}[ZP] {white}Você não pode remover este prop."
 		"chi" "{green}[ZP] {white}你无法删除这个道具。"
+		"pl" "{green}[ZP] {white}Nie możesz usunąć tego propa."
+		"tr" "{green}[ZP] {white}Bu propu silemezsin."
+		"it" "{green}[ZP] {white}Non puoi eliminare questo prop."
+		"ua" "{green}[ZP] {white}Ви не можете видалити цей проп."
+		"zho" "{green}[ZP] {white}你無法刪除這個道具。"
+		"cze" "{green}[ZP] {white}Tento prop nemůžeš smazat."
 	}
 	"GetPropInfo"
 	{
@@ -30,6 +42,12 @@
 		"de" "{green}[ZP] {white}Prop: {1} ({2}) [Besitzer: {3} (HP: {4})]"
 		"pt" "{green}[ZP] {white}Prop: {1} ({2}) [Dono: {3} (HP: {4})]"
 		"chi" "{green}[ZP] {white}道具：{1}（{2}）[所有者：{3}（HP：{4}）]"
+		"pl" "{green}[ZP] {white}Prop: {1} ({2}) [Właściciel: {3} (HP: {4})]"
+		"tr" "{green}[ZP] {white}Prop: {1} ({2}) [Sahibi: {3} (HP: {4})]"
+		"it" "{green}[ZP] {white}Prop: {1} ({2}) [Proprietario: {3} (HP: {4})]"
+		"ua" "{green}[ZP] {white}Проп: {1} ({2}) [Власник: {3} (HP: {4})]"
+		"zho" "{green}[ZP] {white}道具：{1}（{2}）[擁有者：{3}（HP：{4}）]"
+		"cze" "{green}[ZP] {white}Prop: {1} ({2}) [Majitel: {3} (HP: {4})]"
 	}
 	"GetServerPropInfo"
 	{
@@ -41,6 +59,12 @@
 		"de" "{green}[ZP] {white}Prop: {1} ({2}) [Besitzer: Server (HP: {3})]"
 		"pt" "{green}[ZP] {white}Prop: {1} ({2}) [Dono: Servidor (HP: {3})]"
 		"chi" "{green}[ZP] {white}道具：{1}（{2}）[所有者：服务器（HP：{3}）]"
+		"pl" "{green}[ZP] {white}Prop: {1} ({2}) [Właściciel: Serwer (HP: {3})]"
+		"tr" "{green}[ZP] {white}Prop: {1} ({2}) [Sahibi: Sunucu (HP: {3})]"
+		"it" "{green}[ZP] {white}Prop: {1} ({2}) [Proprietario: Server (HP: {3})]"
+		"ua" "{green}[ZP] {white}Проп: {1} ({2}) [Власник: Сервер (HP: {3})]"
+		"zho" "{green}[ZP] {white}道具：{1}（{2}）[擁有者：伺服器（HP：{3}）]"
+		"cze" "{green}[ZP] {white}Prop: {1} ({2}) [Majitel: Server (HP: {3})]"
 	}
 	"ResetedProp"
 	{
@@ -52,6 +76,12 @@
 		"de" "{green}[ZP] {white}Prop von {1} zurückgesetzt."
 		"pt" "{green}[ZP] {white}Prop de {1} redefinido."
 		"chi" "{green}[ZP] {white}已重置 {1} 的道具。"
+		"pl" "{green}[ZP] {white}Zresetowano propa gracza {1}."
+		"tr" "{green}[ZP] {white}{1} oyuncusunun propu sıfırlandı."
+		"it" "{green}[ZP] {white}Prop di {1} reimpostato."
+		"ua" "{green}[ZP] {white}Проп гравця {1} скинуто."
+		"zho" "{green}[ZP] {white}已重置 {1} 的道具。"
+		"cze" "{green}[ZP] {white}Prop hráče {1} byl resetován."
 	}
 	"AlreadyServerProp"
 	{
@@ -62,6 +92,12 @@
 		"de" "{green}[ZP] {white}Dieses Prop gehört bereits dem Server."
 		"pt" "{green}[ZP] {white}Este prop já é do servidor."
 		"chi" "{green}[ZP] {white}这个道具已经属于服务器。"
+		"pl" "{green}[ZP] {white}Ten prop już należy do serwera."
+		"tr" "{green}[ZP] {white}Bu prop zaten sunucuya ait."
+		"it" "{green}[ZP] {white}Questo prop appartiene già al server."
+		"ua" "{green}[ZP] {white}Цей проп уже належить серверу."
+		"zho" "{green}[ZP] {white}這個道具已經屬於伺服器。"
+		"cze" "{green}[ZP] {white}Tento prop už patří serveru."
 	}
 	"FailToResetProp"
 	{
@@ -72,6 +108,12 @@
 		"de" "{green}[ZP] {white}Du kannst dieses Prop nicht zurücksetzen."
 		"pt" "{green}[ZP] {white}Você não pode redefinir este prop."
 		"chi" "{green}[ZP] {white}你无法重置这个道具。"
+		"pl" "{green}[ZP] {white}Nie możesz zresetować tego propa."
+		"tr" "{green}[ZP] {white}Bu propu sıfırlayamazsın."
+		"it" "{green}[ZP] {white}Non puoi reimpostare questo prop."
+		"ua" "{green}[ZP] {white}Ви не можете скинути цей проп."
+		"zho" "{green}[ZP] {white}你無法重置這個道具。"
+		"cze" "{green}[ZP] {white}Tento prop nemůžeš resetovat."
 	}
 	"Enabled"
 	{
@@ -82,6 +124,12 @@
 		"de" "aktiviert"
 		"pt" "ativado"
 		"chi" "已启用"
+		"pl" "włączone"
+		"tr" "etkin"
+		"it" "attivati"
+		"ua" "увімкнено"
+		"zho" "已啟用"
+		"cze" "zapnuto"
 	}
 	"Disabled"
 	{
@@ -92,6 +140,12 @@
 		"de" "deaktiviert"
 		"pt" "desativado"
 		"chi" "已禁用"
+		"pl" "wyłączone"
+		"tr" "devre dışı"
+		"it" "disattivati"
+		"ua" "вимкнено"
+		"zho" "已停用"
+		"cze" "vypnuto"
 	}
 	"GiveCreditsUsage"
 	{
@@ -102,6 +156,12 @@
 		"de" "{green}[ZP] {white}Verwendung: sm_zprop_credits <Ziel> <Anzahl>"
 		"pt" "{green}[ZP] {white}Uso: sm_zprop_credits <alvo> <quantidade>"
 		"chi" "{green}[ZP] {white}用法：sm_zprop_credits <目标> <数量>"
+		"pl" "{green}[ZP] {white}Użycie: sm_zprop_credits <cel> <ilość>"
+		"tr" "{green}[ZP] {white}Kullanım: sm_zprop_credits <hedef> <miktar>"
+		"it" "{green}[ZP] {white}Uso: sm_zprop_credits <bersaglio> <quantità>"
+		"ua" "{green}[ZP] {white}Використання: sm_zprop_credits <ціль> <кількість>"
+		"zho" "{green}[ZP] {white}用法：sm_zprop_credits <目標> <數量>"
+		"cze" "{green}[ZP] {white}Použití: sm_zprop_credits <cíl> <počet>"
 	}
 	"GaveCredits"
 	{
@@ -113,6 +173,12 @@
 		"de" "{green}[ZP] {white}Du hast {2} {1} Credits gegeben."
 		"pt" "{green}[ZP] {white}Você deu {1} créditos para {2}."
 		"chi" "{green}[ZP] {white}你给了 {2} {1} 积分。"
+		"pl" "{green}[ZP] {white}Dałeś {1} kredytów graczowi {2}."
+		"tr" "{green}[ZP] {white}{2} oyuncusuna {1} kredi verdin."
+		"it" "{green}[ZP] {white}Hai dato {1} crediti a {2}."
+		"ua" "{green}[ZP] {white}Ви дали {1} кредитів гравцю {2}."
+		"zho" "{green}[ZP] {white}你給了 {2} {1}點積分。"
+		"cze" "{green}[ZP] {white}Dal jsi {1} kreditů hráči {2}."
 	}
 	"PropsAreDisabled"
 	{
@@ -123,6 +189,12 @@
 		"de" "{green}[ZP] {white}Props sind deaktiviert."
 		"pt" "{green}[ZP] {white}Os props estão desativados."
 		"chi" "{green}[ZP] {white}道具已禁用。"
+		"pl" "{green}[ZP] {white}Propy są wyłączone."
+		"tr" "{green}[ZP] {white}Proplar devre dışı."
+		"it" "{green}[ZP] {white}I prop sono disattivati."
+		"ua" "{green}[ZP] {white}Пропи вимкнено."
+		"zho" "{green}[ZP] {white}道具已停用。"
+		"cze" "{green}[ZP] {white}Propy jsou vypnuté."
 	}
 	"PropsRoundStart"
 	{
@@ -134,6 +206,12 @@
 		"de" "{green}[ZP] {white}Props werden in {1} Sekunden aktiviert."
 		"pt" "{green}[ZP] {white}Os props serão ativados em {1} segundos."
 		"chi" "{green}[ZP] {white}道具将在 {1} 秒后启用。"
+		"pl" "{green}[ZP] {white}Propy zostaną włączone za {1} sek."
+		"tr" "{green}[ZP] {white}Proplar {1} saniye içinde etkinleşecek."
+		"it" "{green}[ZP] {white}I prop saranno attivati tra {1} secondi."
+		"ua" "{green}[ZP] {white}Пропи буде увімкнено через {1} с."
+		"zho" "{green}[ZP] {white}道具將在 {1} 秒後啟用。"
+		"cze" "{green}[ZP] {white}Propy budou zapnuty za {1} s."
 	}
 	"PropMenuTitle"
 	{
@@ -145,6 +223,12 @@
 		"de" "Verfügbare Props: \nDeine Credits: {1}"
 		"pt" "Props disponíveis: \nSeus créditos: {1}"
 		"chi" "可用道具：\n你的积分：{1}"
+		"pl" "Dostępne propy: \nTwoje kredyty: {1}"
+		"tr" "Mevcut proplar: \nKredilerin: {1}"
+		"it" "Prop disponibili: \nI tuoi crediti: {1}"
+		"ua" "Доступні проппи: \nВаші кредити: {1}"
+		"zho" "可用道具：\n你的積分：{1}"
+		"cze" "Dostupné propy: \nTvé kredity: {1}"
 	}
 	"PurchasedProp"
 	{
@@ -156,6 +240,12 @@
 		"de" "{green}[ZP] {white}Du hast {1} gekauft."
 		"pt" "{green}[ZP] {white}Você comprou {1}."
 		"chi" "{green}[ZP] {white}你购买了 {1}。"
+		"pl" "{green}[ZP] {white}Kupiłeś: {1}."
+		"tr" "{green}[ZP] {white}Satın aldın: {1}."
+		"it" "{green}[ZP] {white}Hai acquistato: {1}."
+		"ua" "{green}[ZP] {white}Ви придбали: {1}."
+		"zho" "{green}[ZP] {white}你購買了：{1}。"
+		"cze" "{green}[ZP] {white}Koupil jsi: {1}."
 	}
 	"CreditsForProps"
 	{
@@ -167,6 +257,12 @@
 		"de" "[ZP] Du hast {1} Credits für Props erhalten."
 		"pt" "[ZP] Você recebeu {1} créditos por props."
 		"chi" "[ZP] 你获得了 {1} 道具积分。"
+		"pl" "[ZP] Otrzymałeś {1} kredytów na propy."
+		"tr" "[ZP] Proplar için {1} kredi kazandın."
+		"it" "[ZP] Hai ottenuto {1} crediti per i prop."
+		"ua" "[ZP] Ви отримали {1} кредитів для пропів."
+		"zho" "[ZP] 你獲得了 {1} 點道具積分。"
+		"cze" "[ZP] Získal jsi {1} kreditů na propy."
 	}
 	"ReachedMaxCredits"
 	{
@@ -177,6 +273,12 @@
 		"de" "[ZP] Du hast das Credit-Maximum erreicht."
 		"pt" "[ZP] Você atingiu o máximo de créditos."
 		"chi" "[ZP] 你的积分已达上限。"
+		"pl" "[ZP] Osiągnięto maksymalną liczbę kredytów."
+		"tr" "[ZP] Maksimum kredi sınırına ulaştın."
+		"it" "[ZP] Hai raggiunto il massimo di crediti."
+		"ua" "[ZP] Ви досягли максимуму кредитів."
+		"zho" "[ZP] 你的積分已達上限。"
+		"cze" "[ZP] Dosáhl jsi maxima kreditů."
 	}
 	"Spectator"
 	{
@@ -187,6 +289,12 @@
 		"de" "Zuschauer"
 		"pt" "Espectador"
 		"chi" "观察者"
+		"pl" "Obserwator"
+		"tr" "İzleyici"
+		"it" "Spettatore"
+		"ua" "Глядач"
+		"zho" "旁觀者"
+		"cze" "Divák"
 	}
 	"Zombie"
 	{
@@ -197,6 +305,12 @@
 		"de" "Zombie"
 		"pt" "Zumbi"
 		"chi" "僵尸"
+		"pl" "Zombie"
+		"tr" "Zombi"
+		"it" "Zombie"
+		"ua" "Зомбі"
+		"zho" "殭屍"
+		"cze" "Zombie"
 	}
 	"Human"
 	{
@@ -207,6 +321,12 @@
 		"de" "Mensch"
 		"pt" "Humano"
 		"chi" "人类"
+		"pl" "Człowiek"
+		"tr" "İnsan"
+		"it" "Umano"
+		"ua" "Людина"
+		"zho" "人類"
+		"cze" "Člověk"
 	}
 	"PlayerPropInfo"
 	{
@@ -218,6 +338,12 @@
 		"de" "Leben: {1} [Besitzer: {2} ({3})]"
 		"pt" "Vida: {1} [Dono: {2} ({3})]"
 		"chi" "血量：{1} [所有者：{2}（{3}）]"
+		"pl" "Zdrowie: {1} [Właściciel: {2} ({3})]"
+		"tr" "Can: {1} [Sahibi: {2} ({3})]"
+		"it" "Salute: {1} [Proprietario: {2} ({3})]"
+		"ua" "Здоров'я: {1} [Власник: {2} ({3})]"
+		"zho" "生命：{1} [擁有者：{2}（{3}）]"
+		"cze" "Zdraví: {1} [Majitel: {2} ({3})]"
 	}
 	"ServerPropInfo"
 	{
@@ -229,5 +355,11 @@
 		"de" "Leben: {1} [Besitzer: Server]"
 		"pt" "Vida: {1} [Dono: Servidor]"
 		"chi" "血量：{1} [所有者：服务器]"
+		"pl" "Zdrowie: {1} [Właściciel: Serwer]"
+		"tr" "Can: {1} [Sahibi: Sunucu]"
+		"it" "Salute: {1} [Proprietario: Server]"
+		"ua" "Здоров'я: {1} [Власник: Сервер]"
+		"zho" "生命：{1} [擁有者：伺服器]"
+		"cze" "Zdraví: {1} [Majitel: Server]"
 	}
 }
